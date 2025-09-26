@@ -223,3 +223,31 @@ function fizzBuzz(num) {
     return num;
   }
 }
+
+let color = "XXX";
+
+// if (color === "Red") {
+//   console.log("Show Red T-shirt");
+// } else if (color === "Blue") {
+//   console.log("Show Blue T-shirt");
+// } else if (color === "Brown") {
+//   console.log("Show Brown T-shirt");
+// } else {
+//   console.log("Show White T-shirt");
+// }
+
+switch (color) {
+  case "Red":
+    console.log("Show Red T-shirt");
+    break;
+  case "Blue":
+    console.log("Show Blue T-shirt");
+    break;
+  case "Brown":
+    console.log("Show Brown T-shirt");
+    break;
+  default:
+    console.log("Show White T-shirt");
+}
+
+//
